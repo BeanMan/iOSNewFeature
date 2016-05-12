@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0797ACF41CE42E61008A5C6F /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0797ACF31CE42E61008A5C6F /* NextViewController.m */; };
+		0797ACF61CE43078008A5C6F /* launchImg568.png in Resources */ = {isa = PBXBuildFile; fileRef = 0797ACF51CE43078008A5C6F /* launchImg568.png */; };
+		0797ACF81CE4309B008A5C6F /* chat_announce_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0797ACF71CE4309B008A5C6F /* chat_announce_close.png */; };
+		07B5ECEF1C732377008B4E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5ECEE1C732377008B4E43 /* main.m */; };
+		07B5ECF21C732377008B4E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5ECF11C732377008B4E43 /* AppDelegate.m */; };
+		07B5ECF51C732377008B4E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5ECF41C732377008B4E43 /* ViewController.m */; };
+		07B5ECF81C732377008B4E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B5ECF61C732377008B4E43 /* Main.storyboard */; };
+		07B5ECFA1C732377008B4E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B5ECF91C732377008B4E43 /* Assets.xcassets */; };
+		07B5ECFD1C732377008B4E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B5ECFB1C732377008B4E43 /* LaunchScreen.storyboard */; };
+		07B5ED081C732377008B4E43 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5ED071C732377008B4E43 /* ____Tests.m */; };
+		07B5ED131C732377008B4E43 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5ED121C732377008B4E43 /* ____UITests.m */; };
+		07B5ED211C732432008B4E43 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B5ED201C732432008B4E43 /* LocalAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07B5ED041C732377008B4E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B5ECE21C732377008B4E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B5ECE91C732377008B4E43;
+			remoteInfo = "玩玩指纹";
+		};
+		07B5ED0F1C732377008B4E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B5ECE21C732377008B4E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B5ECE91C732377008B4E43;
+			remoteInfo = "玩玩指纹";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0797ACF21CE42E61008A5C6F /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		0797ACF31CE42E61008A5C6F /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		0797ACF51CE43078008A5C6F /* launchImg568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImg568.png; sourceTree = "<group>"; };
+		0797ACF71CE4309B008A5C6F /* chat_announce_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_announce_close.png; sourceTree = "<group>"; };
+		07B5ECEA1C732377008B4E43 /* 玩玩指纹.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "玩玩指纹.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B5ECEE1C732377008B4E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B5ECF01C732377008B4E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07B5ECF11C732377008B4E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07B5ECF31C732377008B4E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07B5ECF41C732377008B4E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07B5ECF71C732377008B4E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07B5ECF91C732377008B4E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07B5ECFC1C732377008B4E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07B5ECFE1C732377008B4E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B5ED031C732377008B4E43 /* 玩玩指纹Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "玩玩指纹Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B5ED071C732377008B4E43 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		07B5ED091C732377008B4E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B5ED0E1C732377008B4E43 /* 玩玩指纹UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "玩玩指纹UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B5ED121C732377008B4E43 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		07B5ED141C732377008B4E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B5ED201C732432008B4E43 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B5ECE71C732377008B4E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B5ED211C732432008B4E43 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B5ED001C732377008B4E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B5ED0B1C732377008B4E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B5ECE11C732377008B4E43 = {
+			isa = PBXGroup;
+			children = (
+				07B5ED201C732432008B4E43 /* LocalAuthentication.framework */,
+				07B5ECEC1C732377008B4E43 /* 玩玩指纹 */,
+				07B5ED061C732377008B4E43 /* 玩玩指纹Tests */,
+				07B5ED111C732377008B4E43 /* 玩玩指纹UITests */,
+				07B5ECEB1C732377008B4E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B5ECEB1C732377008B4E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B5ECEA1C732377008B4E43 /* 玩玩指纹.app */,
+				07B5ED031C732377008B4E43 /* 玩玩指纹Tests.xctest */,
+				07B5ED0E1C732377008B4E43 /* 玩玩指纹UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B5ECEC1C732377008B4E43 /* 玩玩指纹 */ = {
+			isa = PBXGroup;
+			children = (
+				0797ACF71CE4309B008A5C6F /* chat_announce_close.png */,
+				0797ACF51CE43078008A5C6F /* launchImg568.png */,
+				07B5ECF01C732377008B4E43 /* AppDelegate.h */,
+				07B5ECF11C732377008B4E43 /* AppDelegate.m */,
+				07B5ECF31C732377008B4E43 /* ViewController.h */,
+				07B5ECF41C732377008B4E43 /* ViewController.m */,
+				0797ACF21CE42E61008A5C6F /* NextViewController.h */,
+				0797ACF31CE42E61008A5C6F /* NextViewController.m */,
+				07B5ECF61C732377008B4E43 /* Main.storyboard */,
+				07B5ECF91C732377008B4E43 /* Assets.xcassets */,
+				07B5ECFB1C732377008B4E43 /* LaunchScreen.storyboard */,
+				07B5ECFE1C732377008B4E43 /* Info.plist */,
+				07B5ECED1C732377008B4E43 /* Supporting Files */,
+			);
+			path = "玩玩指纹";
+			sourceTree = "<group>";
+		};
+		07B5ECED1C732377008B4E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B5ECEE1C732377008B4E43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07B5ED061C732377008B4E43 /* 玩玩指纹Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07B5ED071C732377008B4E43 /* ____Tests.m */,
+				07B5ED091C732377008B4E43 /* Info.plist */,
+			);
+			path = "玩玩指纹Tests";
+			sourceTree = "<group>";
+		};
+		07B5ED111C732377008B4E43 /* 玩玩指纹UITests */ = {
+			isa = PBXGroup;
+			children = (
+				07B5ED121C732377008B4E43 /* ____UITests.m */,
+				07B5ED141C732377008B4E43 /* Info.plist */,
+			);
+			path = "玩玩指纹UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B5ECE91C732377008B4E43 /* 玩玩指纹 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B5ED171C732377008B4E43 /* Build configuration list for PBXNativeTarget "玩玩指纹" */;
+			buildPhases = (
+				07B5ECE61C732377008B4E43 /* Sources */,
+				07B5ECE71C732377008B4E43 /* Frameworks */,
+				07B5ECE81C732377008B4E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "玩玩指纹";
+			productName = "玩玩指纹";
+			productReference = 07B5ECEA1C732377008B4E43 /* 玩玩指纹.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07B5ED021C732377008B4E43 /* 玩玩指纹Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B5ED1A1C732377008B4E43 /* Build configuration list for PBXNativeTarget "玩玩指纹Tests" */;
+			buildPhases = (
+				07B5ECFF1C732377008B4E43 /* Sources */,
+				07B5ED001C732377008B4E43 /* Frameworks */,
+				07B5ED011C732377008B4E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07B5ED051C732377008B4E43 /* PBXTargetDependency */,
+			);
+			name = "玩玩指纹Tests";
+			productName = "玩玩指纹Tests";
+			productReference = 07B5ED031C732377008B4E43 /* 玩玩指纹Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07B5ED0D1C732377008B4E43 /* 玩玩指纹UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B5ED1D1C732377008B4E43 /* Build configuration list for PBXNativeTarget "玩玩指纹UITests" */;
+			buildPhases = (
+				07B5ED0A1C732377008B4E43 /* Sources */,
+				07B5ED0B1C732377008B4E43 /* Frameworks */,
+				07B5ED0C1C732377008B4E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07B5ED101C732377008B4E43 /* PBXTargetDependency */,
+			);
+			name = "玩玩指纹UITests";
+			productName = "玩玩指纹UITests";
+			productReference = 07B5ED0E1C732377008B4E43 /* 玩玩指纹UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B5ECE21C732377008B4E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.xile;
+				TargetAttributes = {
+					07B5ECE91C732377008B4E43 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					07B5ED021C732377008B4E43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 07B5ECE91C732377008B4E43;
+					};
+					07B5ED0D1C732377008B4E43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 07B5ECE91C732377008B4E43;
+					};
+				};
+			};
+			buildConfigurationList = 07B5ECE51C732377008B4E43 /* Build configuration list for PBXProject "玩玩指纹" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07B5ECE11C732377008B4E43;
+			productRefGroup = 07B5ECEB1C732377008B4E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B5ECE91C732377008B4E43 /* 玩玩指纹 */,
+				07B5ED021C732377008B4E43 /* 玩玩指纹Tests */,
+				07B5ED0D1C732377008B4E43 /* 玩玩指纹UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B5ECE81C732377008B4E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0797ACF81CE4309B008A5C6F /* chat_announce_close.png in Resources */,
+				07B5ECFD1C732377008B4E43 /* LaunchScreen.storyboard in Resources */,
+				07B5ECFA1C732377008B4E43 /* Assets.xcassets in Resources */,
+				0797ACF61CE43078008A5C6F /* launchImg568.png in Resources */,
+				07B5ECF81C732377008B4E43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B5ED011C732377008B4E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B5ED0C1C732377008B4E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B5ECE61C732377008B4E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B5ECF51C732377008B4E43 /* ViewController.m in Sources */,
+				0797ACF41CE42E61008A5C6F /* NextViewController.m in Sources */,
+				07B5ECF21C732377008B4E43 /* AppDelegate.m in Sources */,
+				07B5ECEF1C732377008B4E43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B5ECFF1C732377008B4E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B5ED081C732377008B4E43 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B5ED0A1C732377008B4E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B5ED131C732377008B4E43 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07B5ED051C732377008B4E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07B5ECE91C732377008B4E43 /* 玩玩指纹 */;
+			targetProxy = 07B5ED041C732377008B4E43 /* PBXContainerItemProxy */;
+		};
+		07B5ED101C732377008B4E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07B5ECE91C732377008B4E43 /* 玩玩指纹 */;
+			targetProxy = 07B5ED0F1C732377008B4E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07B5ECF61C732377008B4E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B5ECF71C732377008B4E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07B5ECFB1C732377008B4E43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B5ECFC1C732377008B4E43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B5ED151C732377008B4E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07B5ED161C732377008B4E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B5ED181C732377008B4E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "玩玩指纹/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07B5ED191C732377008B4E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "玩玩指纹/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07B5ED1B1C732377008B4E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "玩玩指纹Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/玩玩指纹.app/玩玩指纹";
+			};
+			name = Debug;
+		};
+		07B5ED1C1C732377008B4E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "玩玩指纹Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/玩玩指纹.app/玩玩指纹";
+			};
+			name = Release;
+		};
+		07B5ED1E1C732377008B4E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "玩玩指纹UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "玩玩指纹";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07B5ED1F1C732377008B4E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "玩玩指纹UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "玩玩指纹";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B5ECE51C732377008B4E43 /* Build configuration list for PBXProject "玩玩指纹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B5ED151C732377008B4E43 /* Debug */,
+				07B5ED161C732377008B4E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B5ED171C732377008B4E43 /* Build configuration list for PBXNativeTarget "玩玩指纹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B5ED181C732377008B4E43 /* Debug */,
+				07B5ED191C732377008B4E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B5ED1A1C732377008B4E43 /* Build configuration list for PBXNativeTarget "玩玩指纹Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B5ED1B1C732377008B4E43 /* Debug */,
+				07B5ED1C1C732377008B4E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B5ED1D1C732377008B4E43 /* Build configuration list for PBXNativeTarget "玩玩指纹UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B5ED1E1C732377008B4E43 /* Debug */,
+				07B5ED1F1C732377008B4E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B5ECE21C732377008B4E43 /* Project object */;
+}
